@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="include"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="include">
+				<Option output="/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/include" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dada/OS_Lab/实验3/作业/源码/include/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 include"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="include/fast">
+				<Option output="/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/include" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dada/OS_Lab/实验3/作业/源码/include/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 include/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/dada/OS_Lab/实验3/作业/源码/include/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/console.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/const.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/global.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/keyboard.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/keymap.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/proc.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/protect.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/proto.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/string.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/tty.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/type.h">
+			<Option target="include"/>
+		</Unit>
+		<Unit filename="/home/dada/OS_Lab/实验3/作业/源码/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

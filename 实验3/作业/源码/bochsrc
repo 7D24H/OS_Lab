@@ -2,11 +2,12 @@
 # Configuration file for Bochs
 ###############################################################
 
-# 新增
-display_library: sdl
 
 # how much memory the emulated machine will have
 megs: 32
+
+# change
+#display_library:sdl
 
 # filename of ROM images
 romimage: file=/usr/share/bochs/BIOS-bochs-latest
@@ -24,6 +25,7 @@ boot: a
 # disable the mouse
 mouse: enabled=0
 
-# 改变 把原来最后一行的“x11-pc-us.map”改为“sdl-pc-us.map”
+#“x11-pc-us.map”->“sdl-pc-us.map”
 # enable key mapping, using US layout as default.
-keyboard_mapping: enabled=1,  map=/usr/share/bochs/keymaps/sdl-pc-us.map
+# keyboard_mapping: enabled=1,  map=/usr/share/bochs/keymaps/sdl-pc-us.map
+keyboard: keymap=/usr/share/bochs/keymaps/x11-pc-us.map

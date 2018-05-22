@@ -18,8 +18,8 @@ LD		= ld
 ASMBFLAGS	= -I boot/include/
 ASMKFLAGS	= -I include/ -f elf
 # CFLAGS后面加了一句话，不然nasm无法通过编译，会报告错误
-CFLAGS		= -I include/ -c -fno-builtin -fno-stack-protector 
-LDFLAGS		= -s -Ttext $(ENTRYPOINT)
+CFLAGS		= -I include/ -c -fno-builtin  -m32 -fno-stack-protector
+LDFLAGS		= -s -Ttext $(ENTRYPOINT) -melf_i386
 DASMFLAGS	= -u -o $(ENTRYPOINT) -e $(ENTRYOFFSET)
 
 # This Program
